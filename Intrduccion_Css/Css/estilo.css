@@ -3,15 +3,32 @@ h1 {
 }
 .punteado {
     border-style: dotted;
+    border-width: 10px 5px 3px 2px; 
+    border-color: crimson hotpink gold lime; /* Color para cada lado */ 
 }
 .descontinuo {
     border-style: dashed;
+    border-width: medium; /* medium - thick - thin */
+    border-color: rgb(69, 123, 157, .5);
 }
-.solido {
-    border: 8px solid red;
+.solido1 {
+    border: solid red;
+    border-width: 10px 5px 2px;
+}
+.solido2 {
+    border: solid red;
+    padding: 0 0 0 5px;
+    border-width: 10px;
+    border-radius: 15px;
+}
+.solido3 {
+    border: 5px solid rgb(74, 154, 207);
+    padding: 0 0 0 15px;
+    border-radius: 20px 0px 10px 0px;
 }
 .double {
-    border: 5px double;
+    border: 5px double blueviolet;
+    border-width: 10px 5px;
 }
 .surco {
     border: 10px groove;
