@@ -1,0 +1,12 @@
+body {
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/Images/fondo.jpg");
+    background-repeat: no-repeat; /* Si se repite o no */
+    background-position: ; /* Posicion de imagen */
+    background-attachment: fixed; /* Scroll para que la imagen de fondo siga o no ese scroll al aumentar la imagne con fixed se mantiene fija */
+    /* background: dodgerblue url("") no-repeat right-top; podremos definir los atributos en una sola sentencia */
+}
+h1 {
+    text-align: center;
+}
